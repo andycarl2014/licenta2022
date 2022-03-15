@@ -1,3 +1,6 @@
+export const DESKTOP_BREAKPOINT = '(min-width: 1200px)';
+export const TABLET_BREAKPOINT = '(min-width: 768px) and (max-width: 1199px)';
+export const MOBILE_BREAKPOINT = '(max-width: 767px)';
 export const DISEASES = [
   { disease: 'Hemophilia' },
   { disease: 'A, Hemophilia' },

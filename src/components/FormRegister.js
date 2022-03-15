@@ -78,7 +78,7 @@ const Register = () => {
             </a>
           </Button>
         </div>
-        <div className='row'>
+        <div className='row' style={{ paddingLeft: '2rem' }}>
           <FormControl>
             <FormGroup>
               <FormControlLabel

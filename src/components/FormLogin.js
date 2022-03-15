@@ -52,11 +52,12 @@ const Register = () => {
               fontSize: '24px',
               paddingLeft: '3rem',
               paddingBottom: '3rem',
+              textAlign: 'center',
             }}>
             Or login using your account with
           </Typography>
         </div>
-        <div className='row column'>
+        <div className='row column' style={{ paddingTop: 0 }}>
           <GoogleOutlined className='loginAlt' />
           <FacebookOutlined className='loginAlt' />
         </div>
